@@ -9,7 +9,7 @@ partitions = psutil.disk_partitions(all=False)
 message = 'WARNING: DISK(S) OVER ' + str(THRESHOLD) + '% FULL'
 diskname = []
 diskpercent = []
-email_receiver = "jamesqui@wharton.upenn.edu"
+email_receiver = ""
 
 #for loop to iterate through disks and monitor usage
 for p in partitions:
